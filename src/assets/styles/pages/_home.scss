@@ -3,7 +3,13 @@
   > section,
   .section {
     @include res(sm) {
-      padding: 32px 0;
+      padding: 64px 0;
+      &.banner, &.slideshow-carousel {
+        padding: 0;
+      }
+      &.testimonial-carousel {
+        padding: 42px 0;
+      }
     }
 
     @include res(xs) {
@@ -34,14 +40,6 @@
     }
 
     &.subscribe {
-      @include res(sm) {
-        margin: 64px 0;
-        padding: 56px 0;
-      }
-
-      @include res(xs) {
-        margin: 24px 0;
-      }
     }
   }
 
@@ -194,8 +192,8 @@
       &.midsleek-banner-preheading {
         font-size: font-size($preheading_banner_size);
         text-transform: unset;
-        letter-spacing: 0;
-        line-height: 50%;
+        line-height: 1;
+        letter-spacing: -2px;
         // color: $color_preheading_banner;
         color: #ffffff;
       }
@@ -203,6 +201,7 @@
         font-size: font-size($subheading_banner_size);
         letter-spacing: 0;
         line-height: normal;
+        font-family: $giva-font-primary-2;
         // color: $color_subheading_banner;
         color: #ffffff;
       }
@@ -222,7 +221,7 @@
     }
     .midsleek-banner-heading {
       font-size: font-size($heading_banner_size);
-      font-weight: normal;
+      font-weight: 700;
       letter-spacing: 0;
       line-height: font-size($heading_banner_size);
       text-transform: unset;
@@ -470,6 +469,7 @@
 }
 
 .product-carousel {
+  background-color: $color-red-lightest;
   &__heading {
     margin-bottom: 16px;
     @include res(md) {
@@ -534,7 +534,21 @@
     }
   }
   .view-more {
-    font-weight: $font-weight-medium;
+    &.button-highlight {
+      color: $color-red-dark;
+      border-bottom: none;
+      &:after {
+        background: $color-red-dark;
+      }
+      .line {
+        background: $color-red-dark;
+      }
+      &:hover {
+        .line {
+          background: $color-red-dark;
+        }
+      }
+    }
   }
 }
 
@@ -665,17 +679,13 @@
       top: 50%;
       transform: translate(0, -50%);
       .using-font-private {
-        font-family: "Playfair Display", serif;
-        line-height: normal;
+        font-family: "Quicksand", sans-serif;
+        line-height: 1.25;
+        font-weight: 700;
         @include res(xs) {
           font-size: 26px !important;
           line-height: 1.24;
         }
-      }
-      .testimonial-head-icon {
-        font-family: "Playfair Display", serif;
-        font-size: 80px;
-        line-height: normal;
       }
       .testimonial-name {
         span {
@@ -689,29 +699,33 @@
       }
       .testimonial-company {
         display: inline-block;
-        color: $color-blue-dark;
-        border-bottom-color: $color-blue-dark;
+        color: $color-red-dark;
+        border-bottom-color: $color-red-dark;
         &:hover {
-          color: $color-blue-dark;
+          color: $color-red;
         }
         &.button-highlight {
-          color: $color-blue-dark;
+          color: $color-red-dark;
           border-bottom: none;
           &:after {
-            background: $color-blue-dark;
+            background: $color-red-dark;
           }
           .line {
-            background: $color-blue-dark;
+            background: $color-red-dark;
           }
           &:hover {
             .line {
-              background: $color-blue-dark;
+              background: $color-red-dark;
             }
           }
         }
       }
       .h3 {
-        display: none;
+        color: $testimonial_text_color;
+        font-size: 80px;
+        line-height: 1;
+        font-weight: 700;
+        margin-bottom: 0;
         @include res(xs) {
           position: absolute;
           top: -90%;
@@ -734,11 +748,6 @@
         top: auto;
         right: auto;
         left: auto;
-        .testimonial-head-icon {
-          line-height: 50px;
-          display: block;
-          height: 50px;
-        }
       }
       a {
         &:hover {
@@ -767,21 +776,17 @@
     }
     @include res(xs) {
       .img-wrap {
-        overflow: hidden;
         border-radius: 50%;
         margin: 0 auto;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: .75s all;
-        }
       }
     }
     .img-wrap {
       overflow: hidden;
+      border-radius: 32px;
       img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
         transition: .75s all;
       }
     }
@@ -948,7 +953,7 @@
 
 .subscribe {
   // background: $color_newsletter_section_background;
-  background: $color-blue-darker;
+  background: $color-red-dark;
   padding: 64px 0;
   .subscribe-wrap {
     .form-wrapper {
@@ -959,31 +964,32 @@
         height: 56px;
         flex: 1 1 auto;
         // background: $color_bg_input_newsletter;
-        background: $color-blue-dark;
+        background: $color-red;
         border: none;
         color: #ffffff;
+        border-radius: 8px;
       }
       /* Placeholder text color -- selectors need to be separate to work. */
 
       ::-webkit-input-placeholder {
         // color: $color_text_input_newsletter;
-        color: $color-blue;
+        color: $color-red-light;
       }
 
       :-moz-placeholder {
-        color: $color_text_input_newsletter;
-        color: $color-blue;
+        // color: $color_text_input_newsletter;
+        color: $color-red-light;
       }
 
       ::-moz-placeholder {
         // color: $color_text_input_newsletter;
-        color: $color-blue;
+        color: $color-red-light;
         opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */
       }
 
       :-ms-input-placeholder {
         // color: $color_text_input_newsletter;
-        color: $color-blue;
+        color: $color-red-light;
       }
       *[type="submit"] {
         position: absolute;
@@ -1006,6 +1012,7 @@
   }
   .announce-text {
     font-size: 12px;
+    font-family: $giva-font-primary-2;
     @include res(xs) {
       text-align: center;
     }
@@ -1097,7 +1104,7 @@ $color-btn-high-light : #ffffff;
   position: relative;
   font-size: 13px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   letter-spacing: 0.07em;
   &:after {

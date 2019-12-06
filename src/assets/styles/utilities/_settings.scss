@@ -1,12 +1,12 @@
 // MidSleek core assets color
-$color-main: #2d387a;
+$color-main: #e24953;
 // Color blue
-$color-blue-darker: #202756;
-$color-blue-dark: #2d387a;
-$color-blue: #5060be;
-$color-blue-light: #8bb7fd;
-$color-blue-lighter: #bdd6fe;
-$color-blue-lightest: #ebf3ff;
+$color-blue-darker: #0E3958;
+$color-blue-dark: #127aba;
+$color-blue: #1abff4;
+$color-blue-light: #80dcf9;
+$color-blue-lighter: #b6ebfc;
+$color-blue-lightest: #f0fbfe;
 
 // Color sand
 $color-sand-darker: #503921;
@@ -15,6 +15,30 @@ $color-sand: #cead88;
 $color-sand-light: #d6ccb3;
 $color-sand-lighter: #eae4d7;
 $color-sand-lightest: #f7f5f0;
+
+// Color red
+$color-red-darker: #3e1416;
+$color-red-dark: #93232a;
+$color-red: #e24953;
+$color-red-light: #fb9393;
+$color-red-lighter: #fdc4c4;
+$color-red-lightest: #fef5f5;
+
+// Color yellow
+$color-yellow-darker: #57270f;
+$color-yellow-dark: #903d14;
+$color-yellow: #fb913a;
+$color-yellow-light: #fcae6e;
+$color-yellow-lighter: #fdcaa0;
+$color-yellow-lightest: #fff4eb;
+
+// Color violet
+$color-violet-darker: #221862;
+$color-violet-dark: #3b26c5;
+$color-violet: #613bff;
+$color-violet-light: #8c70ff;
+$color-violet-lighter: #bdadff;
+$color-violet-lightest: #f7f5ff;
 
 // Color orange
 $color-orange-darker: #5f201b;
@@ -40,22 +64,22 @@ $color-neutral-light: #c4c4c4;
 $color-neutral-lighter: #eaeaea;
 $color-neutral-lightest: #f9f9f9;
 
-// MidSleek typo accest
+// Giva typo accest
 //Primary font
-$midsleek-font-primary-1: "Playfair Display", serif;
-$midsleek-font-primary-2: "HelveticaNeue", sans-serif;
-$midsleek-font-primary-3: "Harmony", sans-serif;
+$giva-font-primary-1: "Quicksand", sans-serif;
+$giva-font-primary-2: "HelveticaNeue", sans-serif;
+$giva-font-primary-3: "Reenie Beanie", cursive;
 
-.midsleek-font-primary-1 {
-  font-family: $midsleek-font-primary-1;
+.giva-font-primary-1 {
+  font-family: $giva-font-primary-1;
 }
 
-.midsleek-font-primary-2 {
-  font-family: $midsleek-font-primary-2;
+.giva-font-primary-2 {
+  font-family: $giva-font-primary-2;
 }
 
-.midsleek-font-primary-3 {
-  font-family: $midsleek-font-primary-3;
+.giva-font-primary-3 {
+  font-family: $giva-font-primary-3;
 }
 
 // Type
@@ -94,7 +118,7 @@ $color_input: #FFFFFF;
 $color_sale_tag: #a62b0d;
 
 $color_footer_background: #FFFFFF;
-$color_footer_text: #2d387a;
+$color_footer_text: #e24953;
 
 // for button
 $color_drawer_background: #FFFFFF;
@@ -106,7 +130,7 @@ $color_drawer_button: #222222;
 $color_background: #ffffff;
 // Header & Menu color
 $color_top_bar_background: #f4f4f4;
-$color_menu_background: #f7f5f0;
+$color_menu_background: #ffffff;
 $color_menu_link: #2d387a;
 $menu_background_opacity: 100;
 $color_announcement_bar_background: #202756;
@@ -119,7 +143,7 @@ $color_logo_text: #2d387a;
 $color_page_headings: #000000;
 $color_page_content_text: #000000;
 $color_footer_headings: #2d387a;
-$color_footer_text: #2d387a;
+$color_footer_text: #e24953;
 $color_sale_price: #a62b0d;
 $color_compare_at_price: #8a8a8a;
 $color_price: #000000;
@@ -169,7 +193,7 @@ $color_subheading_banner: #ffffff;
 $subheading_banner_size: 12;
 
 // For testimonial
-$testimonial_text_color: #2d387a;
+$testimonial_text_color: #E24953;
 
 // For newsletter
 $color_newsletter: #ffffff;

@@ -88,7 +88,7 @@
             >
               {{ variant.sku | htmlDecode }}
             </p>
-            <h1 class="h3 product__name is-capitalized mt0 mb12 heading-section-midsleek" itemprop="name">
+            <h1 class="h3 product__name is-capitalized mt0 mb12 heading-section-giva" itemprop="name">
               {{ product.title | htmlDecode }}
             </h1>
             <div

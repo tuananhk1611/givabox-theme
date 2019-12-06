@@ -43,7 +43,7 @@
               ]"
             >
               <h6
-                class="h5 has-text-weight-medium is-capitalized has-text-gray-nero site-footer__header flex items-center mb16"
+                class="h5 has-text-weight-medium is-capitalized has-text-gray-nero site-footer__header flex items-center mb16 heading-section-giva"
                 @click.prevent="actives[index] = !actives[index]"
               >
                 <span v-if="block.element_type !== 'page'" class="flex-grow">

@@ -10,4 +10,8 @@
   .load-more {
     font-weight: $font-weight-medium;
   }
+  &__product-image {
+    border-radius: 32px;
+    overflow: hidden;
+  }
 }

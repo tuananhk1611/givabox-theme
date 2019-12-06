@@ -121,12 +121,12 @@ export default {
     },
     styleHeading() {
       return {
-        fontFamily: this.settings.heading_font_private ? 'Playfair Display' : 'inherit',
+        fontFamily: this.settings.heading_font_private ? 'Quicksand' : 'inherit',
       }
     },
     stylePreheading() {
       return {
-        fontFamily: this.settings.preheading_font_private ? 'Harmony' : 'inherit',
+        fontFamily: this.settings.preheading_font_private ? 'Reenie Beanie' : 'inherit',
       }
     },
     highlightButtonType() {
