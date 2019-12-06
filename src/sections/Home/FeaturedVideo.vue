@@ -42,7 +42,7 @@
                   class="is-uppercase has-text-white mt24 has-text-weight-bold"
                   v-html="settings.preheading"
                 ></div>
-                <h2 class="h3 has-text-white mt12 is-capitalized heading-section-midsleek">{{ settings.heading }}</h2>
+                <h2 class="h3 has-text-white mt12 is-capitalized heading-section-giva">{{ settings.heading }}</h2>
                 <p class="has-text-white has-text-weight-bold is-uppercase">{{ settings.subheading }}</p>
               </div>
               <LinkFormatter
@@ -106,7 +106,7 @@
               class="is-uppercase has-text-black mt24"
               v-html="settings.preheading"
             ></div>
-            <h2 class="h3 has-text-black mt12 is-capitalized heading-section-midsleek">{{ settings.heading }}</h2>
+            <h2 class="h3 has-text-black mt12 is-capitalized heading-section-giva">{{ settings.heading }}</h2>
             <p class="has-text-black">{{ settings.subheading }}</p>
           </div>
         </div>

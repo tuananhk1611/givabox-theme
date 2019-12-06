@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-12">
           <div class="about-us-content">
-            <h1 class="h1 heading-section-midsleek">
+            <h1 class="h1 heading-section-giva">
               Our Story
             </h1>
             <div class="row">

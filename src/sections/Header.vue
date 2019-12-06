@@ -134,9 +134,8 @@
                 <img
                   v-if="getLogo"
                   class="fit-logo"
-                  :src="$resizeImage(getLogo, '0', '180', '')"
+                  :src="getLogo"
                   :alt="$shop.name"
-                  :srcset="urlSrcSet(getLogo)"
                   :style="`width: ${sectionSettings.width}px;`"
                 />
                 <div v-else ref="logo" class="items-center flex m0">
@@ -328,7 +327,6 @@ export default {
       ) {
         return this.sectionSettings.mobile_logo || this.sectionSettings.logo
       }
-
       return this.sectionSettings.logo || this.sectionSettings.mobile_logo
     },
     topBarVisible() {

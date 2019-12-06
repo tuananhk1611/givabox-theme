@@ -130,8 +130,9 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  &.heading-section-midsleek {
-    font-family: "Playfair Display", serif;
+  &.heading-section-giva {
+    font-family: $giva-font-primary-1;
+    font-weight: 700;
   }
 }
 

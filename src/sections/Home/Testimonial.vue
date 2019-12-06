@@ -5,7 +5,7 @@
   >
     <div class="container testimonial-container">
       <div class="container-wrap">
-        <p class="h3 text-align-center mb24 heading-section-midsleek is-capitalized">{{ settings.title }}</p>
+        <!--<p class="h3 text-align-center mb24 heading-section-giva is-capitalized">{{ settings.title }}</p>-->
         <Carousel
           ref="carousel"
           :autoplay="isAutoPlay"
@@ -53,8 +53,7 @@
                 class="testimonial-content"
                 :class="[textPosition(block.text_position)]"
               >
-                <h2 class="h3">{{ settings.title }}</h2>
-                <span class="testimonial-head-icon">“</span>
+                <h2 class="h3 text-align-center mb24 heading-section-giva">{{ settings.title }}</h2>
                 <div v-html="block.content" :style="`fontSize: ${testimonialFontSize}px`" :class="{'using-font-private' : settings.testimonial_font_private}"></div>
                 <p v-if="block.customer_name && block.customer_name !== ''" class="testimonial-name is-uppercase mt32 mb32">
                   <span>

@@ -4,7 +4,7 @@
       <div class="row justify-center">
         <h2
           v-if="settings.heading"
-          class="h3 text-align-center product-carousel__heading heading-section-midsleek is-capitalized"
+          class="h3 text-align-center product-carousel__heading heading-section-giva is-capitalized"
         >
           {{ settings.heading }}
         </h2>
@@ -100,9 +100,13 @@
       >
         <router-link
           :to="$routeToCollection(settings.collection)"
-          class="view-more btn btn-outline"
+          class="view-more btn button-highlight"
         >
           {{ settings.view_more_button_label }}
+          <span class="line line-right"></span>
+          <span class="line line-top"></span>
+          <span class="line line-left"></span>
+          <span class="line line-bottom"></span>
         </router-link>
       </div>
     </div>

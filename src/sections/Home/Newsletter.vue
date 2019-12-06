@@ -2,7 +2,7 @@
   <section class="section subscribe special-block">
     <div class="container-fluid text-align-center">
       <div class="subscribe-wrap">
-        <h2 class="h3 mb16 heading-section-midsleek is-capitalized newsletter-text-color">{{ settings.heading }}</h2>
+        <h2 class="h3 mb16 heading-section-giva is-capitalized newsletter-text-color">{{ settings.heading }}</h2>
         <no-ssr>
           <div class="announce-text mb40 newsletter-text-color" v-html="settings.subheading"></div>
         </no-ssr>
@@ -17,7 +17,7 @@
               v-model="email"
               type="text"
               name="email"
-              placeholder="Enter Your Email Address"
+              placeholder="Enter your email address"
               :class="{ 'brdr-cl-red': $v.email.$error }"
             />
             <button
