@@ -7,20 +7,26 @@
       .thumbnail-carousel-slide {
         .sb-lazy:not([src]) {
           &:before {
-            background-color: transparent;
+            // background-color: transparent;
+            left: 4px;
           }
         }
       }
       .product-gallery-image {
         .sb-lazy:not([src]) {
           &:before {
-            background-color: transparent;
+            // background-color: transparent;
           }
         }
       }
       .sb-lazy.progressive {
         position: relative;
         z-index: 1;
+      }
+    }
+    .sb-lazy[lazy=loaded] {
+      & ~ .loader-balls {
+        display: none;
       }
     }
 
@@ -41,6 +47,7 @@
 
     .VueCarousel-slide {
       backface-visibility: unset;
+      position: relative;
     }
 
     .VueCarousel-navigation {
@@ -123,10 +130,10 @@
         margin-left: 3px;
         width: 6px !important;
         height: 6px !important;
-        background: $color-blue-lighter !important;
+        background: $color-red-lighter !important;
         outline: none !important;
         &--active {
-          background: $color-blue-dark !important;
+          background: $color-red !important;
         }
       }
       @include res(sm) {
@@ -200,6 +207,7 @@
       max-height: 100%;
       margin-left: auto;
       margin-right: auto;
+      border-radius: 32px;
     }
     @include res(xs) {
       margin-bottom: 16px;
@@ -218,10 +226,11 @@
       max-height: 98px;
       padding: 4px;
       border: 1px solid transparent;
+      border-radius: 16px;
     }
     &--active {
       img {
-        border: 1px solid $color-blue-dark;
+        border: 1px solid $color-red;
       }
     }
   }
@@ -484,5 +493,40 @@
     display: flex;
     align-items: center;
     transition-property: transform;
+  }
+}
+
+.loader-balls {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  &__wrapper {
+    width: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+  &__item {
+    $anim-drt: 0.75s;
+    $anim-ease: ease-in-out;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(26, 26, 26, 0.4);
+
+    &:nth-child(1) {
+      animation: bouncing $anim-drt alternate infinite $anim-ease;
+    }
+
+    &:nth-child(2) {
+      animation: bouncing $anim-drt $anim-drt/4 alternate infinite $anim-ease backwards;
+    }
+
+    &:nth-child(3) {
+      animation: bouncing $anim-drt $anim-drt/2 alternate infinite $anim-ease backwards;
+    }
   }
 }

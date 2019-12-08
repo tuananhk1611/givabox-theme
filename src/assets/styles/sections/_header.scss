@@ -114,6 +114,8 @@
       position: relative;
       cursor: pointer;
       z-index: 1;
+      background:  url('#{$asset_path}/images/icons/Search.svg?v1') center center no-repeat;
+      background-size: 28px;
       @include res(sm) {
         width: 40px;
         height: 40px;
@@ -210,9 +212,14 @@
     }
     .cart-icon-bag {
       display: inline-block;
-      width: 24px;
-      height: 24px;
+      width: 28px;
+      height: 28px;
       overflow: hidden;
+      background: url('#{$asset_path}/images/icons/Cart.svg') center center no-repeat;
+      background-size: cover;
+      &:hover {
+        color: inherit;
+      }
     }
     .cart-number {
       border-radius: 50%;
@@ -228,17 +235,17 @@
       min-width: 18px;
       height: 18px;
       text-align: center;
-      line-height: 16px;
+      line-height: 18px;
     }
   }
 
   .nav-customer {
     .login-icon {
-      background: url('#{$asset_path}/images/icons/sprites-icon-24.svg') no-repeat 0 -136px;
-      background-size: 24px auto;
+      background: url('#{$asset_path}/images/icons/Account.svg') center center;
+      background-size: cover;
       display: inline-block;
-      width: 24px;
-      height: 24px;
+      width: 28px;
+      height: 28px;
     }
   }
 

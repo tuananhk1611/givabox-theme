@@ -134,8 +134,9 @@
                 <img
                   v-if="getLogo"
                   class="fit-logo"
-                  :src="getLogo"
+                  :src="$resizeImage(getLogo, '0', '180', '')"
                   :alt="$shop.name"
+                  :srcset="urlSrcSet(getLogo)"
                   :style="`width: ${sectionSettings.width}px;`"
                 />
                 <div v-else ref="logo" class="items-center flex m0">
@@ -180,7 +181,6 @@
                 class="search-icon pointer"
                 @click.prevent="actionSearch"
               >
-                <i class="material-icons">search</i>
               </span>
             </div>
             <div
@@ -226,7 +226,6 @@
                 ]"
                 @click.prevent="toggleShowCart"
               >
-                <i class="material-icons-outlined" :class="sectionSettings.cart_icon !== 'bag' ? 'hidden' : ''">shopping_basket_outlined</i>
                 <no-ssr>
                   <span v-if="parseInt(cartQuantity) > 0" class="cart-number">
                     {{ cartQuantity }}
@@ -327,6 +326,7 @@ export default {
       ) {
         return this.sectionSettings.mobile_logo || this.sectionSettings.logo
       }
+
       return this.sectionSettings.logo || this.sectionSettings.mobile_logo
     },
     topBarVisible() {

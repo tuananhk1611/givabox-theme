@@ -5,7 +5,7 @@
   >
     <div class="container testimonial-container">
       <div class="container-wrap">
-        <!--<p class="h3 text-align-center mb24 heading-section-giva is-capitalized">{{ settings.title }}</p>-->
+<!--        <p class="h3 text-align-center mb24 heading-section-giva is-capitalized">{{ settings.title }}</p>-->
         <Carousel
           ref="carousel"
           :autoplay="isAutoPlay"

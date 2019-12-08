@@ -464,7 +464,7 @@
       :change-tab="changeTabStatus"
     >
     </ProductDescriptionBottom>
-    <div class="product-private-section text-align-center">
+    <div class="product-private-section text-align-center hidden">
       <div class="container">
         <div class="row">
           <!-- item 1 -->

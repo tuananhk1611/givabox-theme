@@ -1909,7 +1909,7 @@
           "type": "color"
         },
         {
-          "default": "#2d387a",
+          "default": "#93232a",
           "id": "color_menu_link",
           "label": "Menu link",
           "type": "color"
@@ -1936,7 +1936,7 @@
           "type": "color"
         },
         {
-          "default": "#2d387a",
+          "default": "#93232a",
           "id": "color_logo_text",
           "label": "Logo text",
           "type": "color"
@@ -2021,7 +2021,7 @@
           "type": "color"
         },
         {
-          "default": "#eb6449",
+          "default": "#e24953",
           "id": "color_bg_mini_cart_number",
           "label": "Mini cart background number",
           "type": "color"
@@ -2037,19 +2037,19 @@
           "type": "color"
         },
         {
-          "default": "#2d387a",
+          "default": "#93232a",
           "id": "color_footer_headings",
           "label": "Footer headings",
           "type": "color"
         },
         {
-          "default": "#e24953",
+          "default": "#000000",
           "id": "color_footer_text",
           "label": "Footer text",
           "type": "color"
         },
         {
-          "default": "#2d387a",
+          "default": "#93232a",
           "id": "color_footer_links",
           "label": "Footer link",
           "type": "color"
@@ -2065,7 +2065,7 @@
           "type": "color"
         },
         {
-          "default": "#2d387a",
+          "default": "#93232a",
           "id": "color_bg_buttons",
           "label": "Buttons background",
           "type": "color"
@@ -2111,7 +2111,7 @@
           "content": "For Testimonial Section"
         },
         {
-          "default": "#E24953",
+          "default": "#93232a",
           "id": "testimonial_text_color",
           "label": "Testimonial text color",
           "type": "color"
@@ -3706,17 +3706,17 @@
           "color_buttons": "#ffffff",
           "color_compare_at_price": "#8a8a8a",
           "color_footer_background": "#ffffff",
-          "color_footer_headings": "#e24953",
-          "color_footer_links": "#e24953",
-          "color_footer_text": "#e24953",
+          "color_footer_headings": "#93232a",
+          "color_footer_links": "#93232a",
+          "color_footer_text": "#000000",
           "color_links": "#000000",
-          "color_logo_text": "#2d387a",
-          "color_menu_background": "#ffffff",
-          "color_menu_link": "#2d387a",
+          "color_logo_text": "#93232a",
+          "color_menu_background": "#f7f5f0",
+          "color_menu_link": "#93232a",
           "color_mini_cart_background": "#ffffff",
           "color_mini_cart_button": "#285f8a",
           "color_mini_cart_button_label": "#ffffff",
-          "color_bg_mini_cart_number": "#eb6449",
+          "color_bg_mini_cart_number": "#e24953",
           "color_newsletter_section_background": "#202756",
           "color_newsletter": "#ffffff",
           "color_bg_input_newsletter": "#2d3879",

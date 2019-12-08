@@ -78,10 +78,10 @@ $color_image_option_background: #FeFeFe !default;
     text-transform: uppercase;
     padding: 0 8px;
     height: 26px;
-    border: 1px solid $color-sand-lighter;
+    border: 1px solid $color-red-lighter;
     color: color-control($color_background);
     min-width: 48px;
-    border-radius: 4px;
+    border-radius: 2px;
     &:last-of-type {
       margin-right: 0;
     }
@@ -94,7 +94,7 @@ $color_image_option_background: #FeFeFe !default;
     &.active,
     &--active {
       // border: 1px solid adaptive-color(color-control($color_background), color-control($color_background), 20%);
-      border: 1px solid $color-blue-dark;
+      border: 1px solid $color-red-dark;
       color: adaptive-color(color-control($color_background), color-control($color_background), 20%);
     }
     &--out-of-stock {
@@ -136,7 +136,7 @@ $color_image_option_background: #FeFeFe !default;
     &.active,
     &--active {
       // border: 1px solid adaptive-color(color-control($color_background), color-control($color_background), 20%);
-      border: 1px solid $color-blue-dark;
+      border: 1px solid $color-red;
     }
     &--loaded {
       transition: opacity 0.2s ease-out;
@@ -145,7 +145,7 @@ $color_image_option_background: #FeFeFe !default;
   }
   &__image-option {
     &:nth-child(4n) {
-      margin-right: 0;
+      // margin-right: 0;
     }
   }
   &__quantity {
@@ -588,10 +588,10 @@ $color_image_option_background: #FeFeFe !default;
     }
     &__image-option {
       &:nth-child(4n) {
-        margin-right: 16px;
+        // margin-right: 16px;
       }
       &:nth-child(6n) {
-        margin-right: 0;
+        // margin-right: 0;
       }
     }
   }
