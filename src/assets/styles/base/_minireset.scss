@@ -578,12 +578,13 @@ template {
 .VueCarousel {
   .VueCarousel-navigation-button {
     // background-color: transparent !important;
-    background-color: rgba(45, 56, 121, .4) !important;
+    background-color: rgba(226, 73, 83, .4) !important;
     color: #fff;
     padding: 0 !important;
     width: 32px;
     height: 64px;
     overflow: hidden;
+    outline: none !important;
     &:hover {
       opacity: 0.5 !important;
     }
@@ -702,7 +703,14 @@ table.table-bordered {
 }
 .sb-lazy:not(.progressive)[lazy=loaded] {
   animation: lazy-fade-in both 1s;
+  & ~ .loader-balls {
+    display: none;
+  }
 }
 .sb-lazy[lazy=error] {
   animation: lazy-fade-in both 1s;
+}
+
+.__cov-progress {
+  background-color: $color-blue-light !important;
 }

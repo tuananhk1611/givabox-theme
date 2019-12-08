@@ -13,7 +13,10 @@
     }
 
     @include res(xs) {
-      padding: 44px 0 16px;
+      padding: 32px 0;
+      &.testimonial-carousel {
+        padding: 0 0 12px;
+      }
     }
 
     &:first-child {
@@ -69,16 +72,20 @@
 .section {
   &.banner {
     @include res(xs) {
-      background: #F7F5F0;
       padding: 0 0 16px;
+      .carousel-background {
+        margin-bottom: 12px;
+      }
     }
   }
 }
 
 .slideshow-carousel {
   @include res(xs) {
-    background: $color-sand-lightest;
     padding: 0 0 16px;
+    .carousel-background {
+      margin-bottom: 12px;
+    }
   }
   img {
     width: 100%;
@@ -209,7 +216,7 @@
         &.midsleek-banner-preheading {
           font-size: 48px;
           line-height: 48px;
-          color: #EB6449;
+          color: $color-blue;
         }
         &.midsleek-banner-subheading {
           font-size: 12px;
@@ -726,13 +733,6 @@
         line-height: 1;
         font-weight: 700;
         margin-bottom: 0;
-        @include res(xs) {
-          position: absolute;
-          top: -90%;
-          display: block !important;
-          left: 0;
-          right: 0;
-        }
       }
 
       &--left {
@@ -759,6 +759,11 @@
 }
 
 .collection-list {
+  @include res(xs) {
+    .heading-section-giva {
+      margin-bottom: 24px;
+    }
+  }
   .collection-wrap {
     margin-bottom: 24px;
     @include res(md) {
@@ -774,28 +779,27 @@
         margin-bottom: 0;
       }
     }
-    @include res(xs) {
-      .img-wrap {
-        border-radius: 50%;
-        margin: 0 auto;
-      }
-    }
     .img-wrap {
       overflow: hidden;
+      position: relative;
+      padding-bottom: 100%;
       border-radius: 32px;
+      margin: 0 auto;
       img {
-        width: 100%;
-        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         object-fit: cover;
+        height: 100%;
+        width: 100%;
         transition: .75s all;
       }
+      @include res(xs) {
+        border-radius: 50%;
+      }
     }
-    //&:hover {
-    //  img {
-    //    transition: .5s all;
-    //    transform: scale(1.1);
-    //  }
-    //}
   }
   .collection-name {
     font-size: 14px;
@@ -1029,6 +1033,7 @@
   }
 }
 
+
 .banner-button {
   &.btn {
     &.btn-primary {
@@ -1049,10 +1054,15 @@
     }
     &.button-highlight {
       @include res(xs) {
-        color: $private_main_color;
+        color: $color-red-dark;
         display: inline-block;
         &:after {
-          background: $private_main_color;
+          background: $color-red-dark;
+        }
+        &:active, &:focus {
+          .line {
+            background-color: $color-red-dark;
+          }
         }
       }
     }

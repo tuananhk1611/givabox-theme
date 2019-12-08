@@ -2,43 +2,33 @@
   <div id="about-us-page" class="about-us-page">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-4 figure-about">
+        <div class="col-12 col-sm-8 figure-about">
           <img src="../../assets/images/about-midsleek.png" alt="about-midsleek">
         </div>
-      </div>
-      <div class="row">
         <div class="col-12">
           <div class="about-us-content">
-            <h1 class="h1 heading-section-giva">
-              Our Story
-            </h1>
             <div class="row">
               <div class="col-12 col-sm-8 content-text-about">
-                <p class="mb32">Like every other woman, I got married and got used to the busy life of being a wife,
-                  a mom of two kids and a white-collar worker. Being fed up with all the housework and my career,
-                  I was so stressed out during this time. Luckily, I gradually stepped out of the box
-                  just by spending more time for myself and I realized that only comforting and pampering
-                  myself can help balance my own life.
+                <h1 class="h1 heading-section-giva">
+                  Who doesn’t like receiving gifts, especially cool ones?
+                </h1>
+                <p class="mb32">
+                  Since we believe in the true meaning of giving love and receiving it back, we really love surprising our family and friends with unique special gifts on every occasion. While always seeking the coolest gifts, we’ve found so many great products that we want to share with people like us.
                 </p>
-                <p class="mb32">It comes to my attention that it is not only me having the trouble but also many of
-                  my friends have these kinds of mid-life crisis. We all somehow were caught up with the
-                  piled up work and forget how importance treasuring ourselves is. Consequently, we neglected
-                  ourselves, depressed and lost the quality of our lives.
+                <p class="mb32">
+                  Therefore, Givabox was born as a place to share every passion and interest on Earth because it is a reference to your love and happiness. And to spread exactly that is our core vision: To help you Give a Happy Box to people who you love.
                 </p>
-                <p class="mb32">For that reason, I desire to set the inspiration to all my sleek mature girls out
-                  there that we all have our own values and don’t forget to love yourself to brighten your life.
-                  I decided to establish MidSleek - a brand for sleek women who were and being in the midlife period
-                  but still passionate about fashion and beauty, and lust after shoes and bags.
+                <p class="mb32">
+                  No matter where you are, who you are and what you are passionate about, we want to be able to provide you with custom products that express your true self! That's why at Givabox.co you will find a special collection for every profession, hobby, sport, passion or anything you might think of. So whatever you're looking for, we plan to have it there for you.
+                </p>
+                <p class="mb32">
+                  Since we know you want perfect gifts for your beloved ones, our team has partnered up with the most professional suppliers and put the product quality on top.
                 </p>
                 <p class="mb24">
-                  MidSleek was found with a mission to inspire women and to embrace their confidence in
-                  fashionable presence. Put ourselves in the minds of our customers, we understand and
-                  respond to customer needs. Our own products, always exploring, devising ways to bring
-                  the best products in both quality and design. The most convenient way, through online
-                  delivery systems nationwide delivery.
+                  We love to help you deliver happiness for a lifetime.
                 </p>
                 <p class="sign-text">
-                  Enjoy Your Shopping With Us!
+                  Enjoy giving happy boxes with us!
                 </p>
               </div>
             </div>

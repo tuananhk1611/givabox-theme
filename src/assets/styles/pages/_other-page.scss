@@ -29,39 +29,50 @@
   padding: 64px 0 0;
   .figure-about {
     text-align: center;
-    margin: 0 33%;
+    margin: 0 17%;
     margin-bottom: 24px;
+    img {
+      border-radius: 32px;
+    }
   }
   .about-us-content {
     text-align: center;
     .h1 {
-      color: $color-blue-dark;
+      color: $color-red;
       margin-bottom: 32px;
     }
     p {
       font-size: 16px;
       line-height: 24px;
-      color: $color-blue-dark;
+      color: $color-red;
     }
     .content-text-about {
       margin: 0 17%;
     }
     .sign-text {
-      color: $color-orange;
-      font-family: Harmony;
-      font-size: 80px;
-      line-height: 80px;
-      margin-bottom: 80px;
+      color: $color-blue;
+      font-family: $giva-font-primary-3;
+      letter-spacing: -2px;
+      font-size: 64px;
+      line-height: 64px;
+      margin-bottom: 64px;
     }
   }
   @include res(xs) {
     padding: 15px 0 0;
     .figure-about {
-      margin: auto;
+      margin: 0 auto 24px;
     }
     .about-us-content {
+      h1 {
+        font-size: 32px;
+        line-height: 40px;
+      }
       .content-text-about {
         margin: 0 auto;
+      }
+      .sign-text {
+        margin-bottom: 24px;
       }
     }
   }
