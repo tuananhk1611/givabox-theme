@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-8 figure-about">
-          <img src="../../assets/images/about-midsleek.png" alt="about-midsleek">
+          <img src="../../assets/images/about-giva.png" alt="about-midsleek">
         </div>
         <div class="col-12">
           <div class="about-us-content">
