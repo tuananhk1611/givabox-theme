@@ -73,6 +73,7 @@
   &.banner {
     @include res(xs) {
       padding: 0 0 16px;
+      background-color: $color-red-lightest;
       .carousel-background {
         margin-bottom: 12px;
       }
@@ -83,6 +84,7 @@
 .slideshow-carousel {
   @include res(xs) {
     padding: 0 0 16px;
+    background-color: $color-red-lightest;
     .carousel-background {
       margin-bottom: 12px;
     }
