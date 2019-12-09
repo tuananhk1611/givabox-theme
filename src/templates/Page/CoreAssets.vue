@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="midsleek-typo-wrapper">
+          <div class="giva-typo-wrapper">
             <ul>
               <li>
                 <h1 class="heading-section-giva">Heading 1</h1>
@@ -24,6 +24,19 @@
                 <h6 class="heading-section-giva">Heading 6</h6>
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="giva-button-wrapper">
+            <div>
+              <button class="btn btn-subtle">Button</button>
+            </div>
+            <div>
+              <button class="btn btn-outline">Button</button>
+            </div>
+            <div>
+              <button class="btn btn-primary">Button</button>
+            </div>
           </div>
         </div>
       </div>
