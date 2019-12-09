@@ -54,6 +54,7 @@
     border: 1px solid $white;
     color: $white;
     text-decoration: none;
+    border-radius: 8px;
     // States
     &:focus,
     &.focused,
@@ -70,6 +71,7 @@
     border: 1px solid $color_bg_buttons;
     color: $color_bg_buttons;
     text-decoration: none !important;
+    border-radius: 8px;
     &:hover,
     &.hovered {
       background: $color_bg_buttons;
@@ -112,6 +114,7 @@
     color: $color_buttons;
     border: 1px solid transparent;
     border-bottom: 1px solid $color_buttons;
+    border-radius: 8px;
     &:hover {
       border-color: inherit;
       border-bottom: 1px solid $color_buttons;
