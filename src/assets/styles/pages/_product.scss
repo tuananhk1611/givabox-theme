@@ -7,9 +7,9 @@ $color_image_option_background: #FeFeFe !default;
       width: calc(100% - 100px);
     }
     a {
-      color: $color-blue-dark;
+      color: $color-red;
       &:hover {
-        color: $color-blue;
+        color: $color-red-light;
         text-decoration: none;
       }
     }
@@ -390,6 +390,9 @@ $color_image_option_background: #FeFeFe !default;
         border-bottom: 1px solid $gray-100;
         color: $color_page_content_text;
         line-height: 20px;
+        &:last-child {
+          border-bottom: none;
+        }
         label {
           white-space: nowrap;
           text-overflow: ellipsis;
@@ -450,7 +453,7 @@ $color_image_option_background: #FeFeFe !default;
         .block {
           padding: 12px 0 12px;
           .block__heading {
-            color: $color-blue-dark;
+            color: $color-red;
             font-size: 13px;
             letter-spacing: 0;
             &:before {
@@ -472,7 +475,7 @@ $color_image_option_background: #FeFeFe !default;
               display: none;
             }
             &.block__heading {
-              color: $color-blue-dark;
+              color: $color-red;
             }
           }
         }
