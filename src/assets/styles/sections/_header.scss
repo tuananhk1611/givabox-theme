@@ -12,6 +12,7 @@
 
 .header {
   background-color: rgba($color_menu_background, $menu_background_opacity / 100);
+  border-bottom: 1px solid $color-neutral-lighter;
   &.sticky {
     border-top: 0;
     position: fixed;
@@ -69,7 +70,7 @@
   &.responsive {
     .menu-content-mobile {
       button {
-        background: url('#{$asset_path}/images/icons/hambuger.svg') no-repeat center center;
+        background: url('#{$asset_path}/images/icons/hambuger.svg?v2') no-repeat center center;
         background-size: 18px auto;
         display: inline-block;
         width: 40px;
@@ -114,7 +115,7 @@
       position: relative;
       cursor: pointer;
       z-index: 1;
-      background:  url('#{$asset_path}/images/icons/Search.svg?v1') center center no-repeat;
+      background:  url('#{$asset_path}/images/icons/Search.svg?v2') center center no-repeat;
       background-size: 18px;
       @include res(sm) {
         width: 40px;
@@ -216,7 +217,7 @@
       width: 40px;
       height: 40px;
       overflow: hidden;
-      background: url('#{$asset_path}/images/icons/Cart.svg') center center no-repeat;
+      background: url('#{$asset_path}/images/icons/Cart.svg?v2') center center no-repeat;
       background-size: 22px;
       &:hover {
         color: inherit;
@@ -242,7 +243,7 @@
 
   .nav-customer {
     .login-icon {
-      background: url('#{$asset_path}/images/icons/Account.svg') center center no-repeat;
+      background: url('#{$asset_path}/images/icons/Account.svg?v2') center center no-repeat;
       background-size: 20px;
       display: inline-block;
       width: 40px;

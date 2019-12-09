@@ -75,13 +75,13 @@ $color_image_option_background: #FeFeFe !default;
     position: relative;
     font-size: 12px;
     line-height: 18px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 0 8px;
     height: 26px;
     border: 1px solid $color-red-lighter;
     color: color-control($color_background);
     min-width: 48px;
-    border-radius: 2px;
+    border-radius: 8px;
     &:last-of-type {
       margin-right: 0;
     }

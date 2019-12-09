@@ -24,7 +24,7 @@
   .sidebar-menu__search-group {
     position: relative;
     .search-icon {
-      background: url('#{$asset_path}/images/icons/Search.svg') no-repeat center center;
+      background: url('#{$asset_path}/images/icons/Search.svg?v2') no-repeat center center;
       background-size: 18px;
       display: inline-block;
       position: absolute;
@@ -192,7 +192,7 @@
     justify-content: space-between;
     .login-wrap {
       .login {
-        background: url('#{$asset_path}/images/icons/Account.svg') no-repeat center center;
+        background: url('#{$asset_path}/images/icons/Account.svg?v2') no-repeat center center;
         background-size: 20px;
         display: inline-block;
         width: 40px;

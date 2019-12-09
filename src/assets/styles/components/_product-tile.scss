@@ -12,11 +12,11 @@
     }
     .was_price {
       // color: $color_compare_at_price;
-      color: #000000;
+      color: $color-neutral;
       text-decoration: line-through;
       font-size: 12px;
       span {
-        font-weight: $font-weight-medium;
+        font-weight: 700;
       }
     }
   }

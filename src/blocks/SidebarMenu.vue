@@ -16,7 +16,7 @@
               @click="$emit('close-sidebar')"
             >
               <span
-                ><img src="../assets/images/icons/Close.svg" alt="" width="14"
+                ><img src="../assets/images/icons/Close.svg?v2" alt="" width="14"
               /></span>
             </button>
           </div>
