@@ -415,6 +415,7 @@
       "color_sale_price": "#a62b0d",
       "color_top_bar_background": "#f4f4f4",
       "color_top_menu": "#1a1a1a",
+      "testimonial_text_color": "#E24953",
       "menu_background_opacity": 100
     },
     "currency": {},

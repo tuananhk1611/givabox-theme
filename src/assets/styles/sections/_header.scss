@@ -252,7 +252,7 @@
   .site-nav {
     text-rendering: optimizeLegibility;
     white-space: nowrap;
-
+    font-family: $giva-font-primary-1;
     @include share-rule(show-dropdown) {
       opacity: 1;
       pointer-events: initial;
