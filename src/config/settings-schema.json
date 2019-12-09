@@ -2111,7 +2111,7 @@
           "content": "For Testimonial Section"
         },
         {
-          "default": "#93232a",
+          "default": "#E24953",
           "id": "testimonial_text_color",
           "label": "Testimonial text color",
           "type": "color"
