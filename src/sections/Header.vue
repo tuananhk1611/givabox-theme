@@ -199,7 +199,7 @@
                 $checkoutSetting.form.require_account &&
                   $checkoutSetting.form.require_account !== 'disabled'
               "
-              class="flex items-center mx8 hidden-xs nav-customer"
+              class="flex items-center hidden-xs nav-customer"
             >
               <a
                 class="login-icon"
@@ -210,7 +210,7 @@
             <div
               v-if="sectionSettings.show_cart"
               :class="[
-                'flex items-center ml5 cart-area',
+                'flex items-center cart-area',
                 { 'cart-area-disable': pointerEventsNone },
               ]"
               @mouseover="cartIconHovered = true"
