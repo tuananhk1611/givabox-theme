@@ -49,6 +49,7 @@ $color_image_option_background: #FeFeFe !default;
   &__gallery {
     margin-bottom: 16px;
     @include res(xs) {
+      margin-top: 12px;
       margin-bottom: 32px;
     }
   }
@@ -481,8 +482,8 @@ $color_image_option_background: #FeFeFe !default;
 
   .product {
     &__gallery {
-      margin-left: -15px;
-      margin-right: -15px;
+      //margin-left: -15px;
+      //margin-right: -15px;
     }
   }
 
