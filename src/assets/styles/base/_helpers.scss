@@ -88,6 +88,10 @@ $alignments: ('center': 'center', 'justify': 'justify', 'left': 'left', 'right':
   font-weight: $font-weight-bold;
 }
 
+.has-text-weight-superbold {
+  font-weight: 700;
+}
+
 .is-capitalized {
   text-transform: capitalize;
 }
