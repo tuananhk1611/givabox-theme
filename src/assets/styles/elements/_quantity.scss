@@ -3,6 +3,7 @@
     button {
       touch-action: manipulation;
     }
+    border-radius: 0;
   }
   max-width: 175px;
   position: relative;
@@ -13,7 +14,7 @@
   // border: 1px solid $gray-100; // darken($color_input, 5%);
   border: 1px solid $color-red;
   color: color-control($color_background);
-
+  border-radius: 6px;
   &.disabled {
     pointer-events: none;
     opacity: 0.8;
@@ -26,7 +27,7 @@
     top: 1px;
     bottom: 1px;
     border: 0 none;
-    background: #ebf3ff;
+    background: $color-red-lightest;
     text-align: center;
     overflow: hidden;
     user-select: none;
@@ -34,7 +35,7 @@
     transition: all 0.2s ease-out;
     padding: 0 12px;
     line-height: 1;
-    color: color-control($color_background);
+    color: $color-red;
     z-index: 1;
     .icon-adjust {
       font-size: 16px;
