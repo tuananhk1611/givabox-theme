@@ -130,6 +130,7 @@
       width: 40px;
       height: 40px;
       position: relative;
+      z-index: 9;
       input {
         border-radius: 0;
         width: 40px;
@@ -138,10 +139,10 @@
         position: absolute;
         right: 0;
         opacity: 0;
-        z-index: 2;
+        z-index: 99;
         cursor: pointer;
         transition: all .2s ease;
-
+        background: #ffffff;
         &:focus {
           width: 180px;
           opacity: 1;
@@ -281,7 +282,6 @@
       vertical-align: middle;
       margin: 0;
       white-space: normal;
-
       li {
         display: block;
       }
@@ -369,8 +369,8 @@
         color: $color_menu_link;
 
         &:hover {
-          background-color: adaptive-color($color_menu_background, $white, 4%);
-          color: adaptive-color($color_menu_background, $color_menu_link, 20%);
+          background-color: #fff;
+          color: $color-blue;
         }
       }
     }
@@ -398,9 +398,9 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        color: $color-blue-darker;
+        color: $color-red;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 13px;
       }
     }

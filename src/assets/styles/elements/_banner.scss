@@ -1,12 +1,12 @@
 .banner_holder {
   position: absolute;
-  top: 8px;
-  left: 8px;
-  transform: scale(.75);
+  top: 12px;
+  left: 12px;
+  // transform: scale(.75);
   @include res(lg) {
-    top: 12px;
-    left: 12px;
-    transform: scale(1);
+    //top: 12px;
+    //left: 12px;
+    // transform: scale(1);
   }
 
   .new_banner, .sale_banner , .soldout_banner {
