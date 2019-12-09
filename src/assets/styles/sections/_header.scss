@@ -69,11 +69,11 @@
   &.responsive {
     .menu-content-mobile {
       button {
-        background: url('#{$asset_path}/images/icons/sprites-icon-24.svg') no-repeat 0 -401px;
-        background-size: 32px auto;
+        background: url('#{$asset_path}/images/icons/hambuger.svg') no-repeat center center;
+        background-size: 18px auto;
         display: inline-block;
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
       }
       display: none;
     }
@@ -108,14 +108,14 @@
   .cart-col {
     .search-icon {
       display: inline-block;
-      width: 32px;
-      height: 32px;
+      width: 40px;
+      height: 40px;
       text-align: center;
       position: relative;
       cursor: pointer;
       z-index: 1;
       background:  url('#{$asset_path}/images/icons/Search.svg?v1') center center no-repeat;
-      background-size: 28px;
+      background-size: 18px;
       @include res(sm) {
         width: 40px;
         height: 40px;
@@ -213,11 +213,11 @@
     }
     .cart-icon-bag {
       display: inline-block;
-      width: 28px;
-      height: 28px;
+      width: 40px;
+      height: 40px;
       overflow: hidden;
       background: url('#{$asset_path}/images/icons/Cart.svg') center center no-repeat;
-      background-size: cover;
+      background-size: 22px;
       &:hover {
         color: inherit;
       }
@@ -242,11 +242,11 @@
 
   .nav-customer {
     .login-icon {
-      background: url('#{$asset_path}/images/icons/Account.svg') center center;
-      background-size: cover;
+      background: url('#{$asset_path}/images/icons/Account.svg') center center no-repeat;
+      background-size: 20px;
       display: inline-block;
-      width: 28px;
-      height: 28px;
+      width: 40px;
+      height: 40px;
     }
   }
 

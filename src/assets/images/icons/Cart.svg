@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="27px" viewBox="0 0 30 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="22px" height="19px" viewBox="0 0 22 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
-    <title>Cart</title>
+    <title>icon/action/shopping_basket_24px</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="0%" y1="12.6575252%" x2="100%" y2="87.3424748%" id="linearGradient-1">
@@ -9,29 +9,13 @@
             <stop stop-color="#28B2F5" offset="100%"></stop>
         </linearGradient>
         <path d="M22,9 L17.21,9 L12.82,2.43 C12.42,1.84 11.55,1.84 11.16,2.43 L6.77,9 L2,9 C1.45,9 1,9.45 1,10 C1,10.09 1.01,10.18 1.04,10.27 L3.58,19.54 C3.81,20.38 4.58,21 5.5,21 L18.5,21 C19.42,21 20.19,20.38 20.43,19.54 L22.97,10.27 L23,10 C23,9.45 22.55,9 22,9 Z M11.99,4.79 L14.8,9 L9.18,9 L11.99,4.79 Z M12,17 C10.9,17 10,16.1 10,15 C10,13.9 10.9,13 12,13 C13.1,13 14,13.9 14,15 C14,16.1 13.1,17 12,17 Z" id="path-2"></path>
-        <filter x="-31.8%" y="-26.3%" width="163.6%" height="173.6%" filterUnits="objectBoundingBox" id="filter-4">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.765567835   0 0 0 0 0.942821423   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
     </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Components/Header/Navigation/Desktop" transform="translate(-1258.000000, -20.000000)">
-            <g id="Right-Nav" transform="translate(1173.000000, 12.000000)">
-                <g id="Cart" transform="translate(80.000000, 0.000000)">
-                    <g id="Button/Icon">
-                        <g id="icon/action/shopping_basket_24px" transform="translate(8.000000, 8.000000)">
-                            <mask id="mask-3" fill="white">
-                                <use xlink:href="#path-2"></use>
-                            </mask>
-                            <g fill-rule="nonzero">
-                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
-                                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/action/shopping_basket_24px" transform="translate(-1.000000, -2.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
         </g>
     </g>
 </svg>
