@@ -172,7 +172,7 @@
               "
             >
               <span class="social-icon login"></span>
-              <span class="ml4 giva-font-primary-1" style="font-weight: 700">
+              <span class="ml4 giva-font-primary-1 has-text-weight-superbold">
                 {{ currentUser ? 'My Account' : 'Sign up/Sign in' }}
               </span>
             </a>
