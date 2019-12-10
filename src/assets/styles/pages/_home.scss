@@ -808,8 +808,9 @@
     // color: $color_links;
     color: #000000;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 0;
+    font-family: $giva-font-primary-1;
     &:hover {
       // color: adaptive-color($color_background, $color_links, 20%);
       color: $color-blue;

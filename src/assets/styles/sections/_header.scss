@@ -388,8 +388,8 @@
       }
       .site-nav__more {
         display: inline-block;
-        background: url('#{$asset_path}/images/icons/sprites-icon-24.svg') -4px -485px no-repeat;
-        background-size: 24px auto;
+        background: url('#{$asset_path}/images/icons/more-menu-icon.svg') center center no-repeat;
+        background-size: contain;
         width: 16px;
         height: 6px;
       }
