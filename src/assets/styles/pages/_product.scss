@@ -79,7 +79,7 @@ $color_image_option_background: #FeFeFe !default;
     text-transform: capitalize;
     padding: 0 8px;
     height: 26px;
-    border: 1px solid $color-red-lighter;
+    border: 1px solid $color-neutral-lighter;
     color: color-control($color_background);
     min-width: 48px;
     border-radius: 8px;
@@ -95,7 +95,7 @@ $color_image_option_background: #FeFeFe !default;
     &.active,
     &--active {
       // border: 1px solid adaptive-color(color-control($color_background), color-control($color_background), 20%);
-      border: 1px solid $color-red-dark;
+      border: 1px solid $color-red;
       color: adaptive-color(color-control($color_background), color-control($color_background), 20%);
     }
     &--out-of-stock {
