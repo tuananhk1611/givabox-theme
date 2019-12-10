@@ -4,6 +4,9 @@
       touch-action: manipulation;
     }
     border-radius: 0;
+    &__adjust {
+      border-radius: 0;
+    }
   }
   max-width: 175px;
   position: relative;
@@ -37,6 +40,7 @@
     line-height: 1;
     color: $color-red;
     z-index: 1;
+    border-radius: 6px;
     .icon-adjust {
       font-size: 16px;
     }
@@ -154,9 +158,11 @@
         border-bottom-color: #ffffff;
         color: $color-red-dark;
         outline: none !important;
+        border-radius: 6px;
         &:disabled, &[disabled] {
+          background-color: $color-neutral-lightest;
           .qty-input__up, .qty-input__down {
-            border-color: $gray-200;
+            color: $color-neutral;
           }
         }
       }

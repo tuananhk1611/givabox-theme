@@ -87,13 +87,13 @@
         background: none;
         border: none;
         display: inline-block;
-        color: $color_menu_link;
+        color: $color_red;
         padding: 16px 0;
         text-decoration: none;
         font-size: 1.14286em;
 
         &:hover {
-          color: adaptive-color($color_menu_background, $color_menu_link, 20%);
+          color: $color-red-dark;
         }
       }
     }
@@ -202,7 +202,7 @@
       }
 
       span {
-        color: $color_menu_link;
+        color: $color_red;
       }
     }
   }
