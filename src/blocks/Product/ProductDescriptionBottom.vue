@@ -34,7 +34,8 @@
                       @click.prevent="changeTab(index)"
                     >
                       {{ tabHeading(block) }}
-                      <span class="material-icons icon-down-arrow" style="float: right;">arrow_drop_down</span>
+                      <span v-show="!tabVisible[index]" class="material-icons icon-down-arrow" style="float: right;">arrow_drop_down</span>
+                      <span v-show="tabVisible[index]" class="material-icons icon-down-up" style="float: right;">arrow_drop_up</span>
                     </div>
                     <div
                       :class="{
