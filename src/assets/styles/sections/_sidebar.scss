@@ -32,6 +32,11 @@
       width: 40px;
       height: 40px;
     }
+    #search {
+      &:focus ~ .search-icon {
+        background: url('#{$asset_path}/images/icons/icon-search-focus.svg?v2') no-repeat center center;
+      }
+    }
   }
 
   &.left-sidebar {
